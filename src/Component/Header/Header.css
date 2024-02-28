@@ -1,0 +1,18 @@
+.header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #303030;
+    padding: 12px;
+}
+
+.header .nav-link {
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.header .nav-link:hover,
+.header .nav-link.active {
+    background-color: #404040;
+}
